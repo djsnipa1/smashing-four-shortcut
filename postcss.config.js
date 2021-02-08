@@ -5,6 +5,7 @@ module.exports = {
         require('@fullhuman/postcss-purgecss')({
             content: [
                 './public/index.html',
+                './public/sukkin.html'
             ],
             defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
         })
