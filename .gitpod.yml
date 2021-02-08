@@ -1,5 +1,12 @@
 tasks:
+<<<<<<< HEAD
   - init: npm install && npm run build
+=======
+  - name: npm install
+    init: npm install
+  - name: npm run build
+    init: npm run build
+>>>>>>> 32360549830e84a9919fe832973bdfee52e376d2
 
 vscode:
   extensions:
