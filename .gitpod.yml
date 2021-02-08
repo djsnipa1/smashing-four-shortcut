@@ -1,4 +1,6 @@
 tasks:
+  - name: npm install
+    init: npm install
   - name: npm run build
     init: npm run build
 
