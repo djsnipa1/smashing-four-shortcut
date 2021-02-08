@@ -1,0 +1,26 @@
+{
+  "name": "smashing-four-shortcut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djsnipa1/smashing-four-shortcut.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djsnipa1/smashing-four-shortcut/issues"
+  },
+  "homepage": "https://github.com/djsnipa1/smashing-four-shortcut#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
