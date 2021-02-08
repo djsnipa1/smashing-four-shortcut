@@ -1,3 +1,7 @@
+tasks:
+  - name: npm run build
+    init: npm run build
+
 vscode:
   extensions:
     - bradlc.vscode-tailwindcss@0.5.8:V9S7Nn0g1hYglki98ko+YA==
